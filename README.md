@@ -9,7 +9,7 @@ Bidnamic's Data Engineering Coding Challenge
 <h5>**This flow is desined by considering good practices</h5>
 <ul>
   <li>Ingested data from raw url files
-  <a href="https://raw.githubusercontent.com/bidnamic/bidnamic-data-challenge/master/campaigns.csv">campaings</a>,
+  <a href="https://raw.githubusercontent.com/bidnamic/bidnamic-data-challenge/master/campaigns.csv">campains</a>,
     <a href="https://raw.githubusercontent.com/bidnamic/bidnamic-data-challenge/master/adgroups.csv"> adgroups</a>,
      <a href="https://raw.githubusercontent.com/bidnamic/bidnamic-data-challenge/master/search_terms.csv"> search_terms</a>
      into AWS S3 which considered as data lake with folowing <a href="https://github.com/ABHISHIKTH5C0/bidnamic-data-challenge/blob/master/ingest.py">Python code</a>.
@@ -33,12 +33,12 @@ Bidnamic's Data Engineering Coding Challenge
     <ul>- Raw data is loaded into this schema and we assign data types as per data. </ul>
     <br>
     <ol> 2. Storedata schema</ol>
-    <ul>- In this level we will load clean data by filtering the duplicates and creat the distinct value data frame with transformations as per business requiremtn.</ul>
+    <ul>- In this level we will load clean data by filtering the duplicates and creat the distinct value data frame with transformations as per business requirement.</ul>
     <br>
     <ol> 3. Reportdata schema </ol>
     <ul>- This schema contains the completed busness required data tables.</ul>
     <br>
-   by segregating schema's in postgreSQL database we can track the data utlisation as per busness requirement.
+   by segregating schema's in postgreSQL database we can track the data utilisation as per business requirement.
   </li>
   <li>These schema's created by using the <a href='https://pypi.org/project/psycopg2/'>psycopg2</a> library where it used to connect the PgAdmin with configuration and
   it helps to execute the SQL statments</li>
@@ -55,7 +55,7 @@ Bidnamic's Data Engineering Coding Challenge
   </ul>
  
 <h3>JAR FILES</h3>
-These file used for the extracting the S3 bucket files to the loacal envieronent for this we need hadoop campatibility jar files
+These file used for the extracting the S3 bucket files to the loacal enviroment for this we need hadoop campatibility jar files
 <ul>
 <li>hadoop-aws-3.3.1</li>
 <li>aws-java-sdk-bundle-1.11.901</li>
@@ -63,6 +63,6 @@ These file used for the extracting the S3 bucket files to the loacal envieronent
 <h3>SCRIPTING LANGUAGES</h3>
 <ul>
 <li>Python</li>
-<li>postgreSQl</li>
+<li>postgreSQL</li>
 <ul/>
 
